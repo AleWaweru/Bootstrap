@@ -1,23 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 .navbar {
     background: none;
   }
-  .navbar-default{
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-    linear-gradient(0deg, #DFE1E6, #DFE1E6);
-    height: 10%;
+  .header-sect{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  
+   
+    border-bottom-left-radius: 60px;
     margin-bottom: 0px;
     width: 100%;
+  }
+  .navbar-default{
+    background-repeat: no-repeat;
+
+    height: 20%;
+    margin-bottom: 0px;
+    border: none;
+   
   }
   .navbar-brand{
     color: aqua;
   }
   .nav {
     float: right;
-   
     justify-content: center;
+    margin-left: 60%;
+  }
+  .navbar-nav{
+    margin-left: 50px;
   }
   .nav li {
     list-style: none;
@@ -39,8 +58,10 @@ linear-gradient(0deg, #DFE1E6, #DFE1E6);
   }
   .header-content{
    margin-bottom: 5rem;
+   background-image: url(image/Header\ bg@2x.png);
+   background-size: cover;
     background-color: #fff;
-    height: 70%;
+    height: 100%;
     column-gap: none;
     border-bottom-left-radius: 60px;
   }
@@ -54,10 +75,11 @@ display: flex;
 align-items: center;
 letter-spacing: 0.37px;
 color: #091E42;
-margin-left: 20rem;
+margin-left: 30rem;
+margin-top: 25rem;
   }
   .header-content p{
-    margin-left: 20rem;
+    margin-left: 30rem;
     width: 50%;
     font-family: 'Poppins';
     font-style: normal;
@@ -67,7 +89,7 @@ margin-left: 20rem;
     color: #344563;
   }
   .header-content h2{
-    margin-left: 20rem;
+    margin-left: 30rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -195,25 +217,29 @@ color: #344563;
 
   .content-4 {
     text-align: center;
-/*    background-image: url();*/
+    background-image: url(image/contact\ form\ background\ shapes@2x.png);
     background-color: #6070ff;
     height: 800px;
-    background-repeat: no-repeat;
-    background-position: 100%;
+   background-size: cover;
+    width: 100%;
+    border-top-left-radius: 60px;
+    margin-top: 60px;
 }
 
   .text-white {
     color: white !important;
+    margin-left: 80px;
   }
  
   .cu_co_1 {
-    width: 1130px;
+   
     height: 56px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 35px;    
+    line-height: 35px;   
+    margin-right: 40px; 
   }
 
   .cu_co_2 {
