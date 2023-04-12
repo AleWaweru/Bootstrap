@@ -158,27 +158,23 @@
             <h3 class="text-white">Contact me</h3>
             <p class="text-white">If you have an application you are interested in developing, a feature that you
                 need built or a project that needs coding. I’d love to help with it!</p>
-            <div class="forms">
-                <form action="https://formspree.io/f/xyzxyzxyz" method="POST">
-                    <ul class="form-list">
-                        <li>
-                            <input class="first-name" type="text" name="fullname" maxlength="30" minlength="2"
-                         placeholder="Lorem Ipsum" required>
-
-                        </li>
-                        <li>
-                            <input class="first-name" type="email" name="email" placeholder="loremipsum@gmail.com" required>
-                            
-                        </li>
-                        <li>
-                            <textarea class="contact-textarea" name="message" id="" required cols="30" rows="10"
-                                placeholder="Write your message here..." maxlength="500"></textarea>
-                        </li>
-                    </ul>
-                  
-                    <button class="btn btn-primary mt-3" style="width: 140px; margin-left: 44%">Get in touch</button>
-                </form>
-            </div>
+              <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        
         </section>
 
 
