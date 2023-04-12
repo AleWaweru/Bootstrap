@@ -188,3 +188,45 @@ color: #344563;
   .btn{
     margin-top: 4rem;
   }
+
+  .forms {
+   margin-left: 36.5%;
+  }
+
+  .content-4 {
+    text-align: center;
+/*    background-image: url();*/
+    background-color: #6070ff;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+  .text-white {
+    color: white !important;
+  }
+ 
+  .cu_co_1 {
+    width: 1130px;
+    height: 56px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;    
+  }
+
+  .cu_co_2 {
+    width: 569px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #EBEBFF;
+    white-space: nowrap;
+    padding-left: 370px;
+    margin-top: 155px;
+  }
