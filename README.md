@@ -92,7 +92,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd todo-list
+  cd Bootstrap
   git@github/AleWaweru/Bootstrap/).git
 
 ```
